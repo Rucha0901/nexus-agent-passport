@@ -1,0 +1,30 @@
+spec_version: "0.1.0"
+name: nexus-agent-passport
+version: 1.0.0
+description: Multi-agent epistemic reasoning, bayesian knowledge tracing, and socratic pedagogical dialogue with cross-runtime portability.
+author: "Rucha Salpure"
+license: MIT
+model:
+  preferred: claude-opus-4-6
+  fallback:
+    - claude-sonnet-4-5-20250929
+  constraints:
+    temperature: 0.2
+    max_tokens: 4096
+skills:
+  - bayesian-knowledge-tracing
+tools: []
+delegation:
+  mode: auto
+runtime:
+  max_turns: 50
+  timeout: 300
+compliance:
+  risk_tier: standard
+  frameworks: []
+tags:
+  - education
+  - autonomous-agent
+  - opengap-verified
+metadata:
+  repository: "https://github.com/Rucha0901/nexus-agent-passport"
